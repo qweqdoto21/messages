@@ -25,7 +25,7 @@ public class App {
         final App server = new App();
         String url = "jdbc:postgresql://localhost:5432/";
         String user = "postgres";
-        String password = "dildo";
+        String password = "lavate";
         try (Connection conn = DriverManager.getConnection(url, user, password)) {
             if (conn != null) {
                 System.out.println("Вечер в хату!");
