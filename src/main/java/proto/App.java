@@ -23,7 +23,7 @@ public class App {
 
     public static void main(String[] args) throws Exception {
         final App server = new App();
-        String url = "jdbc:postgresql://localhost:5432/";
+        String url = "jdbc:postgresql://postgres:5432/";
         String user = "postgres";
         String password = "lavate";
         try (Connection conn = DriverManager.getConnection(url, user, password)) {
