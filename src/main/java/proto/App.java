@@ -18,7 +18,7 @@ import io.grpc.Status;
 
 
 public class App {
-    private final int port = 8000; // Вы можете выбрать любой доступный порт
+    private final int port = 8003; // Вы можете выбрать любой доступный порт
     private Server server;
 
     public static void main(String[] args) throws Exception {
